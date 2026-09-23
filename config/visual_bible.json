@@ -1,0 +1,14 @@
+{
+  "theme": "An odyssey through a living future city",
+  "setting": "vast futuristic brutalist city at night",
+  "palette_description": "deep indigo, cyan highlights, restrained amber accents",
+  "camera_style": "continuous cinematic exploration with coherent screen direction",
+  "lens_style": "wide cinematic lenses, natural depth and perspective",
+  "texture": "weathered concrete, brushed metal, fine atmospheric grain",
+  "characters": [],
+  "recurring_objects": ["a distant luminous ring", "reflective canals"],
+  "lighting_style": "volumetric light through architectural openings",
+  "forbidden_elements": ["logos", "captions", "unrelated scene changes"],
+  "base_prompt": "Explore a vast futuristic brutalist city at night, maintaining consistent architecture and atmosphere across every shot.",
+  "negative_prompt": "text, watermark, logos, inconsistent architecture, flicker"
+}

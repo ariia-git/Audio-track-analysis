@@ -1,0 +1,15 @@
+{
+  "audio": {"sample_rate": 22050, "n_fft": 2048, "hop_length": 512, "chunk_seconds": 30, "fine_interval": 0.1, "silence_db": -65},
+  "interval": 0.5,
+  "energy": {
+    "percentiles": [5, 95],
+    "weights": {"loudness": 0.22, "bass_energy": 0.18, "onset_strength": 0.23, "transient_density": 0.14, "spectral_centroid": 0.10, "high_energy": 0.13},
+    "micro_seconds": 1.0, "phrase_seconds": 8.0, "macro_seconds": 30.0,
+    "local_seconds": 60.0, "delta_seconds": 4.0, "stable_delta": 0.008
+  },
+  "beats": {"window_seconds": 30, "overlap_seconds": 5, "start_bpm": 125, "beats_per_bar": 4, "bars_per_phrase": 8, "onset_prominence": 0.08},
+  "sections": {"minimum_seconds": 8, "novelty_window_seconds": 6, "sensitivity": 0.25, "peak_percentile": 0.85, "high_threshold": 0.64, "breakdown_threshold": 0.3, "build_threshold": 0.012, "drop_jump": 0.18, "context_seconds": 12},
+  "boundaries": {"minimum_seconds": 90, "sensitivity": 0.45, "manual_mode": "replace"},
+  "video": {"shot_min_seconds": 1.5, "shot_max_seconds": 10, "response_gamma": 1.1, "camera_min": 0.08, "camera_max": 0.95, "beat_sync_min": 0.15, "beat_sync_max": 0.95},
+  "visual_bible": "config/visual_bible.json"
+}

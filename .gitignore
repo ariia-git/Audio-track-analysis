@@ -1,0 +1,15 @@
+# Local recordings and generated/downloaded data are never published.
+/runtime/
+/output/
+/logs/
+/input/
+# Local credentials and machine-specific settings.
+.env
+.env.*
+!.env.example
+.venv/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
